@@ -1,6 +1,6 @@
 from lib.grid.libGrid import Coord
 
 class Move:
-    def _init(self, coord):
+    def __init__(self, coord):
         self.coord = coord
         

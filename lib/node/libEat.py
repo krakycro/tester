@@ -1,5 +1,5 @@
 class Life:
-    def _init(self, HP, WP):
+    def __init__(self, HP, WP):
         self.HP = HP
         self.WP = WP
         

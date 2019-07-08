@@ -1,10 +1,12 @@
 class Coord:
-    def _init(self, x = 0, y = 0):
+    def __init__(self, x = 0, y = 0):
         self.x = x
         self.y = y
+        
+    def 
 
 class Grid:
-    def _init_(self, size):
+    def __init__(self, size):
         self.x = 0
         self.y = 0
         self.h = size
