@@ -1,9 +1,9 @@
-py_binary(
+py_library(
     name = "libMain",
     srcs = [
-        "libHealth.py"
-        "libMove.py"
-        "libEat.py"
+        "libHealth.py",
+        "libMove.py",
+        "libEat.py",
         ],
     visibility = ["//visibility:public"],
 )

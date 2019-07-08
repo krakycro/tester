@@ -1,7 +1,7 @@
 py_binary(
     name = "mainRun",
     srcs = ["mainRun.py"],
-    defs = [
+    deps = [
         "//lib:libMain",
         ],
 )
