@@ -1,9 +1,5 @@
 py_library(
     name = "libMain",
-    srcs = [
-        "libHealth.py",
-        "libMove.py",
-        "libEat.py",
-        ],
+    srcs = ["**/*.py"],
     visibility = ["//visibility:public"],
 )
