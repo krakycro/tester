@@ -1,6 +1,6 @@
-from lib.grid.libGrid import Coord
+from lib.grid.libGrid import libCoord
 
-class Move:
-    def __init__(self, coord):
-        self.coord = coord
+class libMove:
+    def __init__(self, libCoord):
+        self.libCoord = libCoord
         
