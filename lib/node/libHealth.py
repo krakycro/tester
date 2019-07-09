@@ -1,10 +1,12 @@
-class HP:
-    def __init__(self, max):
-        self.max = max
-        self.effects = []
+class libHP:
+    def __init__(self, intMax):
+        self.intMax = intMax
+        self.intGet = intMax
+        self.intTmp = 0
+        self.lstEffects = []
         
-class WP:
-    def __init__(self, max):
-        self.max = max
-        self.stage = 0
-        self.effects = []
+class libWP:
+    def __init__(self, intMax):
+        self.intMax = intMax
+        self.intStage = 0
+        self.lstEffects = []

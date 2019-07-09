@@ -1,13 +1,13 @@
-class Coord:
-    def __init__(self, x = 0, y = 0):
-        self.x = x
-        self.y = y
+class libCoord:
+    def __init__(self, intX = 0, intY = 0):
+        self.intX = intX
+        self.intY = intY
         
     def 
 
-class Grid:
-    def __init__(self, size):
-        self.x = 0
-        self.y = 0
-        self.h = size
-        self.w = size
+class libGrid:
+    def __init__(self, intSize):
+        self.intX = 0
+        self.intY = 0
+        self.intH = intSize
+        self.intW = intSize

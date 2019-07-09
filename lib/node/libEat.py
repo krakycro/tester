@@ -1,7 +1,7 @@
-class Life:
-    def __init__(self, HP, WP):
-        self.HP = HP
-        self.WP = WP
+class libLife:
+    def __init__(self, libHP, libWP):
+        self.libHP = libHP
+        self.libWP = libWP
         
     def cycle(self):
         pass
