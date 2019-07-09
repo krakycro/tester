@@ -3,7 +3,6 @@ class libCoord:
         self.intX = intX
         self.intY = intY
         
-    def 
 
 class libGrid:
     def __init__(self, intSize):

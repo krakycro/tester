@@ -1,6 +1,6 @@
 py_library(
     name = "runAll",
-    srcs = ["**/*.py"],
+    srcs = glob(["**/*.py"]),
     deps = [
         "//lib:libAll",
         ],

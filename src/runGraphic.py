@@ -1,2 +1,2 @@
 def runGraphic():
-    pass
+    print("Graphic OK")
