@@ -1,5 +1,5 @@
 py_library(
-    name = "libMain",
+    name = "libAll",
     srcs = ["**/*.py"],
     visibility = ["//visibility:public"],
 )

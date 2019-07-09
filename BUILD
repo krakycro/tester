@@ -1,7 +1,8 @@
 py_binary(
-    name = "mainRun",
-    srcs = ["mainRun.py"],
+    name = "runMain",
+    srcs = ["runMain.py"],
     deps = [
-        "//lib:libMain",
+        "//lib:libAll",
+        "//src:runAll",
         ],
 )
