@@ -14,7 +14,7 @@ class libGrid:
         self.intY = 0
         self.intH = intSize
         self.intW = intSize
-        self.lstChunk = [[ libChunk() for x in range(0, intSize / intDens)] for y in range(0, intSize / intDens)]
+        self.lstChunk = [[ libChunk() for x in range(0, int(intSize / intDens))] for y in range(0, int(intSize / intDens))]
         
-    def getChunk(x, y):
+    def getChunk(self, x, y):
         return self.lstChunk[y][x]
